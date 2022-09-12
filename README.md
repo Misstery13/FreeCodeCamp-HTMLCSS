@@ -1,2 +1,2 @@
-# FreeCodeCamp-HTM-CSS
+# FreeCodeCamp-HTML-CSS
  Practice Projects
