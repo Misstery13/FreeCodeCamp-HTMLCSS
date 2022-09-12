@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>English Connect 1 | For learners</title>
+    <link rel="stylesheet" href="style_survey.css">
+</head>
+<body>
+
+    <form id="survey-form" action="">
+        <h1 id="title">Registration for English Connect 1</h1>
+        <p id="description">
+            EnglishConnect is an English language learning program offered by The Church of Jesus Christ of Latter-day Saints. The goal of EnglishConnect is to help students acquire English language skills in an environment of fellowship and faith.
+        </p>
+        <div class="inputcenter">
+            <label id="name-label" for="name">Name</label> <br>    
+            <input id="name" type="text" placeholder="Enter your name" required>
+        </div>
+        <div class="inputcenter">
+            <label id="email-label" for="email">Email</label> <br>
+            <input id="email" type="email" placeholder="Enter your email" required>
+        </div>
+        <div class="inputcenter">
+            <label id="phone-label" for="phone">Phone</label> <br>
+            <input type="tel" name="phone" id="phone" placeholder="Enter your phone number" required>
+        </div>
+        <div class="inputcenter">
+            <label id="number-label" for="number">Age</label> <br>
+            <input type="number" name="number" id="number" min="10" max="99" placeholder="Age" required>
+        </div>
+        <div class="inputcenter">
+            <label id="country-label" for="country">Country</label> <br>
+            <input id="country" name="country" type="text" placeholder="Enter your country" required>
+        </div>
+        <div class="inputcenter">
+            <p id="gender-label">Gender</p>
+            <select name="gender" id="dropdown" required>
+                <option disabled selected value="">Select gender</option>
+                <option value="Man">Man</option>
+                <option value="Woman">Woman</option>
+            </select>
+        </div>
+    
+        <div>
+            <p>Are you member of church?</p>
+                <label for="yes">
+                    <input type="radio" name="member" id="yes0" value="yes">Yes
+                </label>
+                <br>
+                <label for="no">
+                    <input type="radio" name="member" id="no0" value="no">No
+                </label>
+        </div>
+        <!--Answer yes or no-->
+        <div>
+            <p>New convert (Baptized within the last 12 months)</p>
+            <label for="yes">
+                <input type="radio" name="test" id="yes" value="yes">Yes
+            </label>
+            <br>
+            <label for="no">
+                <input type="radio" name="test" id="no" value="no">No
+            </label>
+        </div>
+        <div>
+            <p>Recently returned former missionary (Returned within the last 12 months)</p>
+            <label for="">
+                <input type="radio" name="pollo" id="yes1" value="yes1">
+                Yes
+            </label>
+            <br>
+            <label>
+                <input type="radio" name="pollo" id="no1" value="no1">
+                No
+            </label>
+        </div>
+        <!--Select best day for class-->
+        <div>
+            <p>What would be a good day for the class?</p>
+            <select name="week" id="week" required>
+                <option disabled selected value="">Select a day</option>
+                <option value="Monday">Monday</option>
+                <option value="Tuesday">Tuesday</option>
+                <option value="Wednesday">Wednesday</option>
+                <option value="Thursday">Thursday</option>
+                <option value="Friday">Friday</option>
+                <option value="Saturday">Saturday</option>
+                <option value="Sunday">Sunday</option>
+            </select>
+        </div>
+        <!--Skills that you want to increase-->
+        <div>
+            <p>Select which skills you are most interested in learning:
+                <span>(Check all that apply)</span>
+            </p>
+            <label for="">
+                <input type="checkbox" value="Listening" id="listening">
+                Listening
+            </label> <br>
+            <label for="">
+                <input type="checkbox" value="Reading" id="reading">
+                Reading
+            </label> <br>
+            <label for="">
+                <input type="checkbox" value="Writing" id="writing">
+                Writing
+            </label> <br>
+            <label for="">
+                <input type="checkbox" value="Speaking" id="speaking">
+                Speaking
+            </label> <br>
+            <label for="">
+                <input type="checkbox" value="Grammar" id="grammar">
+                Grammar
+            </label>
+        </div>  
+        <!--Comments-->
+        <div id="centertext">
+            <p>Any comments or suggestions?</p>
+            <textarea name="" id="textarea" cols="30" rows="5">Enter your comments here..</textarea>
+        </div>
+        <!--Submit button-->
+        <br>
+        <div>
+            <button id="submit" type="submit">SUBMIT</button>
+        </div>
+        
+    </form>
+</body>
+</html>

@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&family=Montserrat&display=swap');
+
+
+
+
+#main {
+    padding: 4em;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    background-color: rgb(83, 166, 243);
+    border-radius: 1em;
+}
+
+#title {
+    text-align: center;
+    font-size: 7em;
+    font-family: 'Libre Baskerville', serif;
+}
+
+h4 {
+    text-align: center;
+    font-size: 2em;
+    font-family: 'Libre Baskerville', serif;
+    
+}
+#img-div {
+    text-align: center;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    border-radius: 5em;
+    font-size: 20px;
+    color: white;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+img {
+    display: block;
+    border-radius: 2rem;
+}
+
+#image {
+    max-width: 100%;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#tribute-info {
+    padding-left: 5em;
+    padding-right: 5em;
+    padding-top: 2em;
+    line-height: 2em;
+    font-size: 22px;
+}
+
+#tribute-info h2 {
+    text-align: justify;
+    font-size: 24px;
+    line-height: 1.1em;
+}
+
+#tribute-info h4 {
+    font-size: 28px;
+}
+
+#img-caption,
+#tribute-info {
+    font-family: 'Montserrat', sans-serif;
+}
+
+@media only screen and (max-width: 1000px) {
+    #main {
+        padding: 2%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: auto;
+        margin-bottom: auto;
+        background-color: rgb(83, 243, 104);
+        border-radius: 1em;
+    }
+    #title {
+        text-align: center;
+        font-size: 3em;
+        font-family: 'Libre Baskerville', serif;
+    }
+    h4 {
+        text-align: center;
+        font-size: 1.5em;
+        font-family: 'Libre Baskerville', serif;   
+    }
+
+    #tribute-info h4 {
+        font-size: 1em;
+    }
+    #tribute-info h3 {
+        font-size: 1em;
+    }
+
+    #img-caption {
+        padding-top: 1em;
+        padding: 1.5em;
+        font-size: 1rem;
+    }
+
+    #tribute-info h2 {
+        
+        text-align: center;
+        
+        font-size: 1.5em;
+    }
+
+    #tribute-info  {
+    
+        line-height: normal;
+        font-size: 0.9em;
+    }
+}
